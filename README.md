@@ -25,7 +25,6 @@
 
 ##  Crear cubo multidimensional
 - En Microsoft  sql Managemet Studio iniciar sesión como administrador en el modulo Analysis Services 
-- Se creo visual studio 2019 tener instalado la extensión de sql Analysis Services
 - Descargar proyecto [Dimensionalidades](https://github.com/FaiberAbril/NorthWind/tree/master/NorthWindAnalisis "Dimensionalidades") y Ejecutar
 -Configurar la conexion al servidor de Analysis Services
 - Procesar para Crear el cubo OLAP
