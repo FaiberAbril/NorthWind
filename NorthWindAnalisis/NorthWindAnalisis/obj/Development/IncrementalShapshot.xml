@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AnalisisNorthwind</Database>
+    <Server>DESKTOP-IDFAO6S</Server>
+    <ConnectionString>Data Source=DESKTOP-IDFAO6S;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>RvVFMGILrjt7+V2ZMvOgqnMolpg=10/08/2020 14:10:4610/08/2020 11:40:40</TimeStamp>
+        <ID>
+          <String>DW Northwind</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>5gNGpZWU26BDN0olpyRBbFMjzkI=10/08/2020 11:41:1910/08/2020 11:41:17</TimeStamp>
+        <ID>
+          <String>DW Northwind</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9LLS6zJx1KnfzfOZNE+t2caxrQM=10/08/2020 14:26:0310/08/2020 14:26:02</TimeStamp>
+        <ID>
+          <String>Dm Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EIlwNMGLN8sbff4X2HmE088Xtps=10/08/2020 14:26:1710/08/2020 14:26:17</TimeStamp>
+        <ID>
+          <String>Dm Empleado</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>F1ue0OQlSRSJfb26ZmpdxalrIrI=10/08/2020 14:26:4810/08/2020 14:26:48</TimeStamp>
+        <ID>
+          <String>Dm Productos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1P/8Cp7vkeIVLTRJa9M3T6JNoYA=10/08/2020 14:27:0910/08/2020 14:27:08</TimeStamp>
+        <ID>
+          <String>Dm Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>y8Dp80jUEOEAo+ZP6OHHNXqiS6A=10/08/2020 14:27:2810/08/2020 14:27:26zNRq50nAD4FEgyrqD3QS5z+Z+B0=10/08/2020 14:27:2810/08/2020 14:27:26</TimeStamp>
+        <ID>
+          <String>DW Northwind</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>V9FjecXBlCdl663tbw2RzsBvBKw=10/08/2020 11:38:2510/08/2020 11:38:23</TimeStamp>
+      <ID>
+        <String>AnalisisNorthwind</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-08-10T19:27:53.68Z</LastDeployed>
+</DeploymentSnapshot>
