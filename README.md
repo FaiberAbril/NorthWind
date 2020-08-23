@@ -13,7 +13,7 @@
 - Modelo dimensional 
 ![](https://github.com/FaiberAbril/NorthWind/blob/master/Modelo-Dimensional-Northwind.png)
 
-- En bases de datos dar  click derecho y Restaurar base de datos [Data Were House Northwind](https://github.com/FaiberAbril/NorthWind/blob/master/dh_northwind "Data Were House Northwind")(datos ya poblados)
+- En bases de datos dar  click derecho y Restaurar base de datos [Data WareHouse Northwind](https://github.com/FaiberAbril/NorthWind/blob/master/dh_northwind "Data Were House Northwind")(datos ya poblados)
 
 
 ##  ETL
